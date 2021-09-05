@@ -5,7 +5,7 @@ date: 2019-10-28
 tags: ["php"]
 ShowToc: true
 cover:
-    image: 'joao-tzanno-G9_Euqxpu4k-unsplash.jpg'
+    image: 'webstacks-WbOR54pzvLM-unsplash.jpg'
     alt: 'An interesting adventure with a PHP CMS // Part 1'
 ---
 

@@ -1,11 +1,11 @@
 ---
-title: MLPs with Numpy
-description: I present some recent work in my study of multilayered perceptrons (MLPs)
-img: joao-tzanno-G9_Euqxpu4k-unsplash.jpg
-alt: MLPs with Numpy
+title: 'MLPs with Numpy'
+description: 'I present some recent work in my study of multilayered perceptrons (MLPs)'
+cover:
+  image: 'tim-johnson-nzNFrYccgWk-unsplash.jpg'
+  alt: MLPs with Numpy
 ShowToc: true
-date: 2019-10-28T03:00:00.000Z
-updateAt: 2020-07-19T03:00:00.000Z
+date: "2019-10-28"
 ---
 
 I wanted to showcase some work I recently completed for a course in deep learning. I was recently challenged to make some MLPs with numpy and nothing else. Here is the [code](https://github.com/jessequinn/Coursera_DL/blob/master/week2/NumpyNN%20(honor).ipynb).

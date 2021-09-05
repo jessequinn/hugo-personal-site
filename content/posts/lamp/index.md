@@ -1,11 +1,11 @@
 ---
-title: LAMP Installation on Manjaro
-description: A walk-through on how to configure Linux, Apache, MariaDB, and PHP (LAMP) for development or production purposes.
-img: markus-spiske-466ENaLuhLY-unsplash.jpg
-alt: LAMP Installation on Manjaro
+title: 'LAMP Installation on Manjaro'
+description: 'A walk-through on how to configure Linux, Apache, MariaDB, and PHP (LAMP) for development or production purposes.'
+cover:
+  image: 'markus-spiske-466ENaLuhLY-unsplash.jpg'
+  alt: 'LAMP Installation on Manjaro'
 ShowToc: true
-date: 2019-10-28T03:00:00.000Z
-updateAt: 2020-07-19T03:00:00.000Z
+date: "2019-10-28"
 ---
 
 #### Introduction
