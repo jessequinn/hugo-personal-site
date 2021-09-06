@@ -4,3 +4,10 @@
 
 /.idea/
 /resources/**
+
+!/static/**
+!/archetypes/**
+!/content/**
+!/data/**
+!/layouts/**
+!/themes/**

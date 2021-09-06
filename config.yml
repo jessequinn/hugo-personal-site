@@ -60,7 +60,7 @@ params:
         enabled: enabled # needs to be explicitly set
         title: Jesse Quinn
         subtitle: "site reliability engineer and software developer"
-        imageUrl: "maxim-potkin-EzIbOY9lPL8-unsplash.jpg"
+        imageUrl: "logo.svg"
         imageWidth: 120
         imageHeight: 120
         imageTitle: profile image
