@@ -25,8 +25,8 @@ params:
     # author: ["Me", "You"] # multiple authors
     images: ["<link or path of image for opengraph, twitter-cards>"]
     DateFormat: "January 2, 2006"
-    defaultTheme: auto # dark, light
-    disableThemeToggle: false
+    defaultTheme: light # dark, light, auto
+    disableThemeToggle: true
 
     ShowReadingTime: true
     ShowShareButtons: true
@@ -59,12 +59,15 @@ params:
     profileMode:
         enabled: enabled # needs to be explicitly set
         title: Jesse Quinn
-        subtitle: "site reliability engineer and software developer"
+        subtitle: "site reliability engineer, software developer"
+        subsubtitle: "and once upon a time chemist/chemical engineer"
         imageUrl: "logo.svg"
         imageWidth: 120
         imageHeight: 120
         imageTitle: profile image
         buttons:
+            - name: Search
+              url: search
             - name: Archives
               url: archives
             - name: Posts
@@ -78,12 +81,24 @@ params:
         Content: Welcome to my site
 
     socialIcons:
+        - name: googlescholar
+          url: "https://scholar.google.com/citations?user=5xKJr4sAAAAJ&hl=en"
+        - name: researchgate
+          url: "https://www.researchgate.net/profile/Jesse-Quinn-2"
+        - name: orcid
+          url: "https://orcid.org/0000-0002-9951-0443?lang=en"
+        - name: lattes
+          url: "https://lattes.cnpq.br/4731056259867186"
+        - name: publons
+          url: "https://publons.com/researcher/2186253/jesse-quinn/"
         - name: linkedin
           url: "https://www.linkedin.com/in/jessequinn/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3B77lH7a5hSA6cTRnls6TvzQ%3D%3D"
         - name: github
           url: "https://github.com/jessequinn"
         - name: email
           url: "mailto:me@jessequinn.info"
+        - name: cv
+          url: "https://jessequinn.info/cv.pdf"
 
     analytics:
         google:
@@ -116,14 +131,10 @@ params:
         keys: ["title", "permalink", "summary", "content"]
 menu:
     main:
-        - identifier: resume
-          name: resume
-          url: /resume/
-          weight: 10
         - identifier: publications
           name: publications
           url: /publications/
-          weight: 20
+          weight: 10
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
