@@ -4,6 +4,7 @@
 
 /.idea/
 /resources/**
+/public/
 
 !/static/**
 !/archetypes/**
