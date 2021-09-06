@@ -140,3 +140,11 @@ outputs:
         - HTML
         - RSS
         - JSON # is necessary
+        - REDIR
+
+outputFormats:
+    REDIR:
+        baseName: "redirects"
+        isPlainText: true
+        mediaType: "text/plain"
+        notAlternative: true
