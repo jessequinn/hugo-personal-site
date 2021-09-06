@@ -103,10 +103,10 @@ params:
     analytics:
         google:
             SiteVerificationTag: "XYZabc"
-        bing:
-            SiteVerificationTag: "XYZabc"
-        yandex:
-            SiteVerificationTag: "XYZabc"
+#        bing:
+#            SiteVerificationTag: "XYZabc"
+#        yandex:
+#            SiteVerificationTag: "XYZabc"
 
     cover:
         responsiveImages: true

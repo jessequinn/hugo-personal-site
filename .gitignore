@@ -12,3 +12,7 @@
 !/data/**
 !/layouts/**
 !/themes/**
+
+!.gitignore
+!.gitattributes
+!.gitmodules
