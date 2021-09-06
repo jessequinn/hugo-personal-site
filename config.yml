@@ -98,7 +98,7 @@ params:
         - name: email
           url: "mailto:me@jessequinn.info"
         - name: cv
-          url: "https://jessequinn.info/cv.pdf"
+          url: "https://jessequinn.info/cv/jessequinn_programmer_cv_en.pdf"
 
     analytics:
         google:
