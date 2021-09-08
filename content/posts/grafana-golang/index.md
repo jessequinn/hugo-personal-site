@@ -8,8 +8,6 @@ date: "2021-09-07"
 ShowToc: true
 ---
 
-A small article about a GO watcher for Grafana 8.1 alerts.
-
 ## Introduction
 With the recent release of Grafana 8 a new opt-in feature for alerting has 
 been made [available](https://grafana.com/docs/grafana/latest/alerting/unified-alerting/). 
