@@ -1,12 +1,14 @@
 ---
-title:
-description:
+title: 'Grafana 8.1 alert watcher written in GO'
+description: 'A small article about a GO watcher for Grafana 8.1 alerts.'
 cover:
   image: 'david-thielen-Om-Z4TDfv7o-unsplash.jpg'
-  alt: ''
+  alt: 'Grafana alert watcher written in GO'
 date: "2021-09-07"
 ShowToc: true
 ---
+
+A small article about a GO watcher for Grafana 8.1 alerts.
 
 ## Introduction
 With the recent release of Grafana 8 a new opt-in feature for alerting has 
