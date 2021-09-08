@@ -55,7 +55,7 @@ func main() {
 		}
 		alerts, err := c.GetAllAlerts(context.TODO())
 		if err != nil {
-			panic(err)
+			log.Fatal(err)
 		} else {
 			for t := range time.Tick(10 * time.Second) {
 				screen.Clear()
