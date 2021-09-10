@@ -1,4 +1,4 @@
-baseURL: "https://jessequinn.info/"
+baseURL: "https://jessequinn.info:2096/"
 title: welcome to jessequinn.info
 paginate: 5
 theme: hugo-papermod
