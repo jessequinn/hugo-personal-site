@@ -6,6 +6,7 @@ cover:
   alt: 'Grafana alert watcher written in GO'
 date: "2021-09-07"
 ShowToc: true
+tags: ["GO"]
 ---
 
 ## Introduction
