@@ -97,7 +97,7 @@ The idea in this `site.yaml` is to pull Ubuntu Focal from https://us.images.linu
 using the default profile I created when initializing LXD. As a side note, I also suggest using LVM and create your own thin pool. Managing environments with LVM is much easier
 and super simple to expand drives. Some good articles on the subject can be found [HERE](https://www.pither.com/simon/blog/2018/09/28/lxd-lvm-thinpool-setup) and [HERE](https://askubuntu.com/questions/1222407/setup-lxd-storage-thin-pool-on-an-existing-lvm-volume-group-of-the-host).
 
-Several pors have also been forwarded. This is useful if you want to utilize proxies like Traefik, Nginx, etc. In the example above I utilize Cloudflare's DNS proxying on ports
+Several ports have also been forwarded. This is useful if you want to utilize proxies like Traefik, Nginx, etc. In the example above I utilize Cloudflare's DNS proxying on ports
 2095 and 2096. I also make port 8080 available for the Traefik API. Again, in a future article I will create a role for [Traefik](https://traefik.io/).
 
 We need to install the community collection, and then we can run ansible playbook to create the LXD environment:
