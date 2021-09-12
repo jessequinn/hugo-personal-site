@@ -13,7 +13,7 @@ cover:
 This very short article is about port knocking and iptables. Port knocking allows a specific port to be opened when a sequence of connection attempts on predefined ports
 are made. The correct sequence of "knocks" will dynamically open the desired port temporarily so that a connection can be made on the desired port.
 
-In this article we will use port 22 as the port to hide with the four (4) UDP ports to knock. 
+In this article we will use port 22 as the port to hide with four (4) UDP ports to knock. 
 
 ## Code
 Using iptables, the following commands will create several chains, `INTO-PHASE2`, `INTO-PHASE3`, and `INTO-PHASE4`. 
