@@ -57,6 +57,7 @@ sudo iptables -A INPUT -p tcp --dport 22 -i eth0 -m recent --rcheck --seconds 5 
 The following script can be used to open port 22 where `HOST` is the ip address of the sshd:
 
 ```bash
+#!/usr/bin/env bash
 set -euo pipefail
 IFS=$'\n\t'
 HOST='xxx.xxx.xxx.xxx'
