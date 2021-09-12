@@ -58,7 +58,7 @@ The following script can be used to open port 22 where `HOST` is the ip address 
 
 ```bash
 #!/usr/bin/env bash
-set -euo pipefail
+set -euxo pipefail
 IFS=$'\n\t'
 HOST='xxx.xxx.xxx.xxx'
 
