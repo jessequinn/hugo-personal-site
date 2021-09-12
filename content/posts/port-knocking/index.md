@@ -16,7 +16,9 @@ are made. The correct sequence of "knocks" will dynamically open the desired por
 In this article we will use port 22 as the port to hide with the four (4) UDP ports to knock. 
 
 ## Code
-Using iptables, the following commands will create several chains, `INTO-PHASE2`, `INTO-PHASE3`, and `INTO-PHASE4`. Each chain will have several rules appended. 
+Using iptables, the following commands will create several chains, `INTO-PHASE2`, `INTO-PHASE3`, and `INTO-PHASE4`. 
+Each chain will have several rules appended. Specifically 
+a match is used to make up the condition under which the next step is invoked. 
 If the given sequence of UDP ports are knocked in sequence port 22 on eth0 interface will open for five (5) seconds. 
 
 ```bash
