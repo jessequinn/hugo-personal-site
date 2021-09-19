@@ -7,7 +7,7 @@ cover:
 date: "2021-09-19"
 ShowToc: true
 draft: false
-tags: ["Vagrant", "K3D", "Kubernetes"]
+tags: ["Vagrant", "K3D", "K3S", "Kubernetes"]
 ---
 
 ## Introduction
