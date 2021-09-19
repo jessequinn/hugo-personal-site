@@ -141,7 +141,7 @@ time="2021-09-18T16:17:15.903280505Z" level=error msg="Remotedialer proxy error"
 
 There is a timeout. In addition, although I passed flags to K3S to disable Traefik and the service load-balancer, both are still created. *I reported this to the creator*. 
 
-![image](133923505-9cdde65a-be05-43f0-94ef-58449b542962.png)
+![image](img/133923505-9cdde65a-be05-43f0-94ef-58449b542962.png)
 
 Several approaches I thought about to resolve this issue were:
 
