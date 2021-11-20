@@ -1,9 +1,9 @@
 ---
-title: 'Configure OpenVPN with Openmediavault5 and Libvrt'
-description: 'I recently started playing around with OMV5 and virtual machines and would like to share how to configure OpenVPN to allow for access to the VMs.'
+title: 'Configure OpenVPN with Openmediavault 5 and Libvrt'
+description: 'I recently started playing around with OMV5 and virtual machines and would like to share how to configure OpenVPN to allow access to the virtual machines.'
 cover:
     image: 'nick-loggie-fRVPzBYcd5A-unsplash.jpg'
-    alt: 'Openssh it'
+    alt: 'Openssh it!'
 ShowToc: true
 date: 2021-11-14T07:33:51-03:00
 draft: false
@@ -90,7 +90,7 @@ Interesting enough, still not working. Running tcpdump on `tun0`:
 tcpdump -n -i tun0 dst 192.168.122.28
 ```
 
-where `dst` is the IP of the VM, I received the following messaage when attempting to SSH into it: 
+where `dst` is the IP of the VM, I received the following message when attempting to SSH into it: 
 
 ```bash
 tcpdump - 06:48:49.444452 IP 10.8.0.2.50553 > 192.168.122.28.22: Flags [SEW], seq 734905863, win 65535, options [mss 1360,nop,wscale 6,nop,nop,TS val 3958581044 ecr 0,sackOK,eol], length 0
