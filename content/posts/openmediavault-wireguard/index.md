@@ -10,7 +10,7 @@ draft: false
 ---
 
 ## Introduction
-As per my previous post on OMV5 and OpenVPN, I decided to install Wireguard, a more performant VPN software.
+As per my previous [post](https://jessequinn.info/posts/openmediavault-openvpn/) on OMV5 and OpenVPN, I decided to install [Wireguard](https://www.wireguard.com/), a more performant VPN software.
 
 ## Configuration
 To start, we need to install Wireguard on OMV5. So SSH into your box and run:
