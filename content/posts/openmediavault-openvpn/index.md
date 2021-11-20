@@ -54,9 +54,7 @@ dh "/etc/openvpn/pki/dh.pem"
 topology subnet
 server 10.8.0.0 255.255.255.0
 ifconfig-pool-persist ipp.txt
-;route 192.168.1.0 255.255.255.0
 ;route 192.168.122.0 255.255.255.0
-push "route 192.168.1.0 255.255.255.0"
 push "route 192.168.122.0 255.255.255.0"
 ;push "redirect-gateway def1 bypass-dhcp"
 push "dhcp-option DNS 8.8.8.8"

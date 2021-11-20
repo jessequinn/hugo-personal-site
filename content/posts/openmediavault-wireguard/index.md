@@ -82,8 +82,6 @@ You will need to incorporate some firewall rules and enable ip forwarding:
 sysctl --write net.ipv4.ip_forward=1
 # eno1 represents MY internet facing interface
 iptables --table nat --append POSTROUTING --jump MASQUERADE --out-interface eno1
-# 192.168.1.0/32 is my local network
-iptables --table filter --insert FORWARD -s 10.0.2.0/24 -d 192.168.1.0/32 -j ACCEPT
 # 192.168.122.0/24 is my virtual machines' bridged network
 iptables --table filter --insert FORWARD -s 10.0.2.0/24 -d 192.168.122.0/24 -j ACCEPT
 ```
